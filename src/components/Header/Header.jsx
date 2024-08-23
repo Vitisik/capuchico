@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export default function Header() {
   return (
     <header className="header">
-      <a href="/">
+      <Link to="/">
         <span className="header_logo">ANAMI</span>
-      </a>
+      </Link>
       <nav className="header_nav">
         <li>Про нас</li>
         <li>Увійти</li>

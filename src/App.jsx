@@ -1,12 +1,30 @@
-import Header from "./components/Header/Header";
-import Choice from "./components/Choice/Choice";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Desserts from "./components/Drinks&Desserts/Desserts/Desserts";
+import Drinks from "./components/Drinks&Desserts/Drinks/Drinks";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/drinks",
+    element: <Drinks />,
+  },
+  {
+    path: "/desserts",
+    element: <Desserts />,
+  },
+]);
 
 function App() {
   return (
     <div className="wrapper">
-      <Header />
-      <Choice />
+      <RouterProvider router={router} />
     </div>
+    // <Home />;
   );
 }
 

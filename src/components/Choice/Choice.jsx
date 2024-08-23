@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Choice.css";
 
 export default function Choice() {
@@ -15,13 +16,20 @@ export default function Choice() {
           </p>
         </div>
         <div className="choice_order">
-          <button className="choice_drink">НАПОЇ</button>
-          <button className="choice_desserts">ДЕСЕРТИ</button>
+          <Link to="/drinks" className="choice_drink">
+            НАПОЇ
+          </Link>
+
+          <Link to="/desserts" className="choice_desserts">
+            ДЕСЕРТИ
+          </Link>
         </div>
       </div>
       <div className="instagram">
         <a
           target="_blank"
+          without
+          rel="noreferrer"
           href="https://www.instagram.com/anami_coffee_ternopil?igsh=YnV3N2x3Zjl5eXd6"
         >
           <div className="img"></div>
