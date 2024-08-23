@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+span,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  background-color: #fff8d0;
+}
+
+.wrapper {
+  padding: 5px;
+  max-width: 1280px;
+  margin: 0 auto;
+}

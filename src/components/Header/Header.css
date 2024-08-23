@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+.header_logo {
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: rgb(64, 66, 68);
+}
+
+.header_nav li {
+  margin-left: 15px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.header_nav li:hover {
+  opacity: 0.5;
+}

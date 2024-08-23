@@ -1,0 +1,117 @@
+.choice {
+  background: url(./../../img/coffee.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px 0px 10px;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-color: #5a5252;
+
+  border-radius: 15px;
+
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.choice_top {
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.choice_bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.choice_about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.choice_about-anami {
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.choice_about-atmosphere {
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 5px;
+
+  text-align: center;
+
+  /* margin-bottom: 110px; */
+}
+
+.choice_order {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.choice_drink,
+.choice_desserts {
+  color: #000000;
+  padding: 10%;
+  border-radius: 15px;
+  /* opacity: 0.3; */
+  cursor: pointer;
+  margin-bottom: 20px;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  border: none;
+
+  background-color: #fff8d028;
+
+  transition: background-color 0.2s ease, font-size 0.2s ease,
+    box-shadow 0.2s ease, border-radius 0.2s ease;
+}
+
+.choice_drink:hover,
+.choice_desserts:hover {
+  background-color: #fff8d04f;
+  box-shadow: 0px 0px 5px 1px #fff8d0;
+  /* font-size: 32px; */
+  border-radius: 40px;
+}
+
+.instagram {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
+.instagram a {
+  opacity: 0.5;
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+}
+
+.instagram a:hover {
+  opacity: 0.8;
+  box-shadow: 6px 6px 6px 2px rgba(32, 30, 29, 0.623);
+}
+
+.img {
+  background: url(./instagram.png) no-repeat;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-position: center center;
+}
