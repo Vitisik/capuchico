@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Desserts from "./components/Drinks&Desserts/Desserts/Desserts";
+// import Dessert from "./components/Drinks&Desserts/Desserts/Dessert";
 import Drinks from "./components/Drinks&Desserts/Drinks/Drinks";
+import Desserts from "./pages/Desserts";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,6 @@ function App() {
     <div className="wrapper">
       <RouterProvider router={router} />
     </div>
-    // <Home />;
   );
 }
 
