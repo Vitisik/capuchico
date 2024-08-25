@@ -14,6 +14,7 @@ export default function Desserts() {
               name={dessert.name}
               price={dessert.price}
               img={dessert.img}
+              about={dessert.about}
             />
           );
         })}
