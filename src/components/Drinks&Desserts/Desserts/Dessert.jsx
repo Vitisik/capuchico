@@ -1,40 +1,45 @@
 import "./Dessert.css";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Button, Modal } from "antd";
+import { CarContext } from "../../../ContextBasket";
 
-export default function Dessert(props) {
+export default function Dessert({ img, price, name, about }, props) {
+  const data = useContext(CarContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
   const showModal = () => {
     setIsModalOpen(true);
-  };
-  const handleOk = () => {
-    setIsModalOpen(false);
   };
   const handleCancel = () => {
     setIsModalOpen(false);
   };
+
   return (
     <div className="card">
       <div className="card_top">
-        <img src={props.img} alt="" />
+        <img src={img} alt="" />
       </div>
       <div className="card_bottom">
-        <p className="name_card">{props.name}</p>
-        <p className="price_card">{props.price} грн</p>
+        <p className="name_card">{name}</p>
+        <p className="price_card">{price} грн</p>
       </div>
       <Button className="card_button" type="primary" onClick={showModal}>
         Опис десерту
       </Button>
-      <button className="card_button">Додати в кошик</button>
+      <button
+        onClick={() => data.orderBasket({ img, price, name })}
+        className="card_button"
+      >
+        Додати в кошик
+      </button>
 
       <Modal
-        title={props.name}
+        title={name}
         open={isModalOpen}
-        onOk={handleOk}
         onCancel={handleCancel}
         footer={null}
       >
-        <p>{props.about}</p>
+        <p>{about}</p>
       </Modal>
     </div>
   );

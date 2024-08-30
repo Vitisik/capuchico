@@ -31,9 +31,10 @@ dd {
   margin: 0;
 }
 
-body {
-  background-color: #fff8d0;
-}
+/* #root {
+  background-color: #ffe342;
+  height: 100vh;
+} */
 
 .wrapper {
   /* padding: 5px; */
