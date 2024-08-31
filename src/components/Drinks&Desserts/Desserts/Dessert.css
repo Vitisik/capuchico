@@ -57,3 +57,7 @@
 .card_button:hover {
   background-color: #d8d64e;
 }
+
+.active {
+  background-color: #33e651;
+}

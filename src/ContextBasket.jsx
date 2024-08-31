@@ -3,11 +3,14 @@ import React, { useState, createContext } from "react";
 export const CarContext = createContext();
 
 export default function ContextBasket(props) {
-  const [basket, setBasket] = useState({});
+  const [basket, setBasket] = useState([]);
 
-  console.log(basket);
   const orderBasket = ({ img, price, name }) => {
     setBasket({ img, price, name });
+
+    const updatedArray = [...basket];
+    updatedArray.push({ img, price, name });
+    setBasket(updatedArray);
   };
 
   const value = {

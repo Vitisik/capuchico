@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import { ShoppingCartOutlined } from "@ant-design/icons";
+import { ShoppingCartOutlined, DeleteOutlined } from "@ant-design/icons";
 import { Space, Button, Drawer } from "antd";
 import { useState } from "react";
 import { CarContext } from "../../ContextBasket";
@@ -32,8 +32,29 @@ export default function Header() {
         </Space>
 
         <Drawer title="Basic Drawer" onClose={onClose} open={open}>
-          <p>{data.basket.name}</p>
-          <p>Some contents...</p>
+          {data.basket.map((baskets) => {
+            return (
+              <div className="basket-card">
+                <div className="basket-card_top">
+                  <img src={baskets.img} alt="" />
+                </div>
+                <div className="basket-card_bottom">
+                  <p className="basket-name_card">{baskets.name}</p>
+                  <p className="basket-price_card">{baskets.price} грн</p>
+                </div>
+                <Space>
+                  <Button
+                    className="delete_button"
+                    type="primary"
+
+                    // className="header_basket"
+                  >
+                    <DeleteOutlined />
+                  </Button>
+                </Space>
+              </div>
+            );
+          })}
         </Drawer>
 
         <li>Про нас</li>
