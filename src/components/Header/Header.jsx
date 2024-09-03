@@ -8,9 +8,9 @@ import { CarContext } from "../../ContextBasket";
 
 export default function Header() {
   const data = useContext(CarContext);
-  console.log(data.basket);
 
   const [open, setOpen] = useState(false);
+
   const showDrawer = () => {
     setOpen(true);
   };
@@ -31,7 +31,7 @@ export default function Header() {
           </Button>
         </Space>
 
-        <Drawer title="Basic Drawer" onClose={onClose} open={open}>
+        <Drawer title="Ваші замовлення" onClose={onClose} open={open}>
           {data.basket.map((baskets) => {
             return (
               <div className="basket-card">
@@ -43,12 +43,7 @@ export default function Header() {
                   <p className="basket-price_card">{baskets.price} грн</p>
                 </div>
                 <Space>
-                  <Button
-                    className="delete_button"
-                    type="primary"
-
-                    // className="header_basket"
-                  >
+                  <Button className="delete_button" type="primary">
                     <DeleteOutlined />
                   </Button>
                 </Space>
