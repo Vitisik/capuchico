@@ -1,10 +1,10 @@
 import "./Dessert.css";
 import React, { useContext, useState } from "react";
 import { Button, Modal } from "antd";
-import { CarContext } from "../../../ContextBasket";
+import { OrderContext } from "../../../ContextBasket";
 
-export default function Dessert({ img, price, name, about }, props) {
-  const data = useContext(CarContext);
+export default function Dessert({ img, price, name, id, about }) {
+  const data = useContext(OrderContext);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const showModal = () => {
@@ -27,7 +27,7 @@ export default function Dessert({ img, price, name, about }, props) {
         Опис десерту
       </Button>
       <button
-        onClick={() => data.orderBasket({ img, price, name })}
+        onClick={() => data.orderBasket({ img, price, name, id })}
         className="card_button"
       >
         Додати в кошик

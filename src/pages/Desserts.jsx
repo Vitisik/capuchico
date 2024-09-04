@@ -15,6 +15,7 @@ export default function Desserts() {
               name={dessert.name}
               price={dessert.price}
               img={dessert.img}
+              id={dessert.id}
               about={dessert.about}
             />
           );

@@ -4,10 +4,10 @@ import "./Header.css";
 import { ShoppingCartOutlined, DeleteOutlined } from "@ant-design/icons";
 import { Space, Button, Drawer } from "antd";
 import { useState } from "react";
-import { CarContext } from "../../ContextBasket";
+import { OrderContext } from "../../ContextBasket";
 
 export default function Header() {
-  const data = useContext(CarContext);
+  const data = useContext(OrderContext);
 
   const [open, setOpen] = useState(false);
 
@@ -42,8 +42,15 @@ export default function Header() {
                   <p className="basket-name_card">{baskets.name}</p>
                   <p className="basket-price_card">{baskets.price} грн</p>
                 </div>
+
                 <Space>
-                  <Button className="delete_button" type="primary">
+                  <Button
+                    className="delete_button"
+                    type="primary"
+                    onClick={() => {
+                      data.deleteProduct(baskets.id);
+                    }}
+                  >
                     <DeleteOutlined />
                   </Button>
                 </Space>
