@@ -123,6 +123,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 400px) {
+  .basket-card_top img {
+    width: 75px;
+  }
+}
+
 @media (max-width: 480px) {
   .header {
     display: flex;
