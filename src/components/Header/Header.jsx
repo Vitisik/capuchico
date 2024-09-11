@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <header className="header">
-      <Link to="/">
+      <Link to="/capuchico">
         <span className="header_logo">ANAMI</span>
       </Link>
       <nav className="header_nav">
