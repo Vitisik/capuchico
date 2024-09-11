@@ -73,6 +73,7 @@
   font-weight: 800;
   font-size: 30px;
   border: none;
+  text-decoration: none;
 
   background-color: #fff8d028;
 
@@ -114,4 +115,36 @@
   height: 50px;
   background-size: cover;
   background-position: center center;
+}
+
+@media (max-width: 400px) {
+  .choice_top {
+    padding: 15px;
+  }
+  .choice_bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .choice_about-anami {
+    margin: 0;
+  }
+  .choice_about-atmosphere {
+    font-size: 15px;
+    letter-spacing: 4px;
+  }
+  .choice_drink,
+  .choice_desserts {
+    padding: 5%;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .header_nav {
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+  }
 }

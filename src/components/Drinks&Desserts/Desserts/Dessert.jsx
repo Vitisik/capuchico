@@ -23,15 +23,17 @@ export default function Dessert({ img, price, name, id, about }) {
         <p className="name_card">{name}</p>
         <p className="price_card">{price} грн</p>
       </div>
-      <Button className="card_button" type="primary" onClick={showModal}>
-        Опис десерту
-      </Button>
-      <button
-        onClick={() => data.orderBasket({ img, price, name, id })}
-        className="card_button"
-      >
-        Додати в кошик
-      </button>
+      <div className="buttons">
+        <Button className="card_button" type="primary" onClick={showModal}>
+          Опис десерту
+        </Button>
+        <button
+          onClick={() => data.orderBasket({ img, price, name, id })}
+          className="card_button "
+        >
+          Додати в кошик
+        </button>
+      </div>
 
       <Modal
         title={name}

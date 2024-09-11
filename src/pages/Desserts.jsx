@@ -12,6 +12,7 @@ export default function Desserts() {
         {desserts.map((dessert) => {
           return (
             <Dessert
+              key={dessert.id}
               name={dessert.name}
               price={dessert.price}
               img={dessert.img}

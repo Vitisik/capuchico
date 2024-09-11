@@ -31,10 +31,14 @@ dd {
   margin: 0;
 }
 
-/* #root {
-  background-color: #ffe342;
+html {
+  background-color: #f3e1ae;
+}
+
+#root {
+  background-color: #f3e1ae;
   height: 100vh;
-} */
+}
 
 .wrapper {
   /* padding: 5px; */
