@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c881533.css",
-    "main.js": "/static/js/main.d4ac0e4a.js",
-    "static/media/dessert.jpg": "/static/media/dessert.41403a43e7ceb9c6731f.jpg",
-    "static/media/instagram.png": "/static/media/instagram.e719d8b29f452a16302d.png",
-    "static/media/coffee.jpg": "/static/media/coffee.26a2ea916416a1397c49.jpg",
-    "index.html": "/index.html",
-    "main.0c881533.css.map": "/static/css/main.0c881533.css.map",
-    "main.d4ac0e4a.js.map": "/static/js/main.d4ac0e4a.js.map"
+    "main.css": "/anami-coffee/static/css/main.47ee30b9.css",
+    "main.js": "/anami-coffee/static/js/main.710f7e02.js",
+    "static/media/dessert.jpg": "/anami-coffee/static/media/dessert.41403a43e7ceb9c6731f.jpg",
+    "static/media/instagram.png": "/anami-coffee/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/coffee.jpg": "/anami-coffee/static/media/coffee.26a2ea916416a1397c49.jpg",
+    "index.html": "/anami-coffee/index.html",
+    "main.47ee30b9.css.map": "/anami-coffee/static/css/main.47ee30b9.css.map",
+    "main.710f7e02.js.map": "/anami-coffee/static/js/main.710f7e02.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c881533.css",
-    "static/js/main.d4ac0e4a.js"
+    "static/css/main.47ee30b9.css",
+    "static/js/main.710f7e02.js"
   ]
 }
