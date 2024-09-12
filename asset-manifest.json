@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/capuchico/static/css/main.96f5bfa6.css",
+    "main.css": "/capuchico/static/css/main.b1466b68.css",
     "main.js": "/capuchico/static/js/main.1428e24f.js",
     "static/media/dessert.jpg": "/capuchico/static/media/dessert.41403a43e7ceb9c6731f.jpg",
     "static/media/instagram.png": "/capuchico/static/media/instagram.e719d8b29f452a16302d.png",
     "static/media/coffee.jpg": "/capuchico/static/media/coffee.26a2ea916416a1397c49.jpg",
     "index.html": "/capuchico/index.html",
-    "main.96f5bfa6.css.map": "/capuchico/static/css/main.96f5bfa6.css.map",
+    "main.b1466b68.css.map": "/capuchico/static/css/main.b1466b68.css.map",
     "main.1428e24f.js.map": "/capuchico/static/js/main.1428e24f.js.map"
   },
   "entrypoints": [
-    "static/css/main.96f5bfa6.css",
+    "static/css/main.b1466b68.css",
     "static/js/main.1428e24f.js"
   ]
 }
