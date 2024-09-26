@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/capuchico/static/css/main.ec643e9d.css",
-    "main.js": "/capuchico/static/js/main.b0d89609.js",
+    "main.css": "/capuchico/static/css/main.4b0c58db.css",
+    "main.js": "/capuchico/static/js/main.f1885964.js",
     "static/media/1.JPG": "/capuchico/static/media/1.8f63912572f98bf218c8.JPG",
     "static/media/4.JPG": "/capuchico/static/media/4.5d29fa4d736c34cc8a72.JPG",
     "static/media/anami.JPG": "/capuchico/static/media/anami.deb47e9b40a3a6e77b87.JPG",
@@ -33,11 +33,11 @@
     "static/media/slick.ttf": "/capuchico/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/capuchico/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/capuchico/index.html",
-    "main.ec643e9d.css.map": "/capuchico/static/css/main.ec643e9d.css.map",
-    "main.b0d89609.js.map": "/capuchico/static/js/main.b0d89609.js.map"
+    "main.4b0c58db.css.map": "/capuchico/static/css/main.4b0c58db.css.map",
+    "main.f1885964.js.map": "/capuchico/static/js/main.f1885964.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec643e9d.css",
-    "static/js/main.b0d89609.js"
+    "static/css/main.4b0c58db.css",
+    "static/js/main.f1885964.js"
   ]
 }
