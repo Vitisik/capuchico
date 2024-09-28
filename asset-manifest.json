@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/capuchico/static/css/main.b591a327.css",
-    "main.js": "/capuchico/static/js/main.f12fbbb6.js",
+    "main.css": "/capuchico/static/css/main.ed0d9605.css",
+    "main.js": "/capuchico/static/js/main.9bc0581e.js",
     "static/media/1.JPG": "/capuchico/static/media/1.8f63912572f98bf218c8.JPG",
     "static/media/4.JPG": "/capuchico/static/media/4.5d29fa4d736c34cc8a72.JPG",
     "static/media/anami.JPG": "/capuchico/static/media/anami.deb47e9b40a3a6e77b87.JPG",
@@ -27,17 +27,18 @@
     "static/media/gorishok.JPG": "/capuchico/static/media/gorishok.cf5a7a698639928b7fbb.JPG",
     "static/media/tartSnikers.JPG": "/capuchico/static/media/tartSnikers.eea51d4c4a2d13929e13.JPG",
     "static/media/chisFist.JPG": "/capuchico/static/media/chisFist.8d1c5e84bb2b6c5e6e2d.JPG",
+    "static/media/logo.svg": "/capuchico/static/media/logo.4038aa6530a2d5d6c61e.svg",
     "static/media/instagram.png": "/capuchico/static/media/instagram.e719d8b29f452a16302d.png",
     "static/media/slick.svg": "/capuchico/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/capuchico/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/capuchico/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/capuchico/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/capuchico/index.html",
-    "main.b591a327.css.map": "/capuchico/static/css/main.b591a327.css.map",
-    "main.f12fbbb6.js.map": "/capuchico/static/js/main.f12fbbb6.js.map"
+    "main.ed0d9605.css.map": "/capuchico/static/css/main.ed0d9605.css.map",
+    "main.9bc0581e.js.map": "/capuchico/static/js/main.9bc0581e.js.map"
   },
   "entrypoints": [
-    "static/css/main.b591a327.css",
-    "static/js/main.f12fbbb6.js"
+    "static/css/main.ed0d9605.css",
+    "static/js/main.9bc0581e.js"
   ]
 }
