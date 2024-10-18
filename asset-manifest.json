@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/capuchico/static/css/main.2b016ce5.css",
-    "main.js": "/capuchico/static/js/main.df0665e5.js",
+    "main.css": "/capuchico/static/css/main.9c2b33d1.css",
+    "main.js": "/capuchico/static/js/main.b737a8d2.js",
     "static/media/1.JPG": "/capuchico/static/media/1.8f63912572f98bf218c8.JPG",
     "static/media/4.JPG": "/capuchico/static/media/4.5d29fa4d736c34cc8a72.JPG",
     "static/media/anami.JPG": "/capuchico/static/media/anami.deb47e9b40a3a6e77b87.JPG",
@@ -22,7 +22,6 @@
     "static/media/churos.JPG": "/capuchico/static/media/churos.a98759a41612205257d0.JPG",
     "static/media/makarons.JPG": "/capuchico/static/media/makarons.64ecb76856d933dc7a64.JPG",
     "static/media/chisKaram.JPG": "/capuchico/static/media/chisKaram.b7d39eb0ebeed50c8051.JPG",
-    "static/media/kish.JPG": "/capuchico/static/media/kish.838378cdbeea402550f3.JPG",
     "static/media/trayfl.JPG": "/capuchico/static/media/trayfl.d8384c1e15548f808a13.JPG",
     "static/media/gorishok.JPG": "/capuchico/static/media/gorishok.cf5a7a698639928b7fbb.JPG",
     "static/media/tartSnikers.JPG": "/capuchico/static/media/tartSnikers.eea51d4c4a2d13929e13.JPG",
@@ -36,11 +35,11 @@
     "index.html": "/capuchico/index.html",
     "static/media/shopping_cart.svg": "/capuchico/static/media/shopping_cart.9eff1c57cd592ab3a24e.svg",
     "static/media/check_circle.svg": "/capuchico/static/media/check_circle.69c5bd8415f7f84c0d66.svg",
-    "main.2b016ce5.css.map": "/capuchico/static/css/main.2b016ce5.css.map",
-    "main.df0665e5.js.map": "/capuchico/static/js/main.df0665e5.js.map"
+    "main.9c2b33d1.css.map": "/capuchico/static/css/main.9c2b33d1.css.map",
+    "main.b737a8d2.js.map": "/capuchico/static/js/main.b737a8d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b016ce5.css",
-    "static/js/main.df0665e5.js"
+    "static/css/main.9c2b33d1.css",
+    "static/js/main.b737a8d2.js"
   ]
 }
