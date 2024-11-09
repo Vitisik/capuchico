@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/capuchico/static/css/main.53f352ad.css",
-    "main.js": "/capuchico/static/js/main.863adee2.js",
+    "main.js": "/capuchico/static/js/main.d3ba5387.js",
     "static/media/4.jpg": "/capuchico/static/media/4.146d27c915b70d8e528c.jpg",
     "static/media/anami.jpg": "/capuchico/static/media/anami.2bcaabe1acec3db8caf8.jpg",
     "static/media/1.jpg": "/capuchico/static/media/1.71a199348bdc8afd4188.jpg",
@@ -36,10 +36,10 @@
     "static/media/shopping_cart.svg": "/capuchico/static/media/shopping_cart.9eff1c57cd592ab3a24e.svg",
     "static/media/check_circle.svg": "/capuchico/static/media/check_circle.69c5bd8415f7f84c0d66.svg",
     "main.53f352ad.css.map": "/capuchico/static/css/main.53f352ad.css.map",
-    "main.863adee2.js.map": "/capuchico/static/js/main.863adee2.js.map"
+    "main.d3ba5387.js.map": "/capuchico/static/js/main.d3ba5387.js.map"
   },
   "entrypoints": [
     "static/css/main.53f352ad.css",
-    "static/js/main.863adee2.js"
+    "static/js/main.d3ba5387.js"
   ]
 }
